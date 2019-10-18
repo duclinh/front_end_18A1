@@ -1,0 +1,80 @@
+.login{
+    margin: 0 auto;
+    width: 370px;
+    height: 250px;
+    background: greenyellow;
+}
+.login h3{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0.8rem 0;
+    margin: 0;
+    text-transform: uppercase;
+    color: white;
+    background: green;
+}
+.login .form-group{
+    margin: 0 auto;
+    width: 85%;
+    /* height: 80px; */
+    /* background: gray;    */
+}
+.form-group label{
+    display: block;
+    width: 100%;
+    padding: 0.3rem 0;
+    color: red;
+}
+.form-group .form-control{
+  display: block;
+  width: 100%;  
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0.5rem 0;
+  color: red;
+  padding-left: 2rem;
+}
+.form-group .form-control:focus{
+    background: darkgray;
+    border: 2px solid red;
+}
+.form-group .btn-login{
+    width: 40%;
+    padding: 0.8rem 0;
+    display: block;
+    margin:0 auto;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    background: green;
+    color: white;
+    border-radius: 0.3rem;
+    border: none;
+    font-weight: bold;
+}
+.form-group .btn-login:hover{
+    background: white;
+    color: green;
+}
+/*Dua icon vao input*/
+.form-group .username{
+    background-image: url(icons/user.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+}
+.form-group .username:focus{
+    background-image: url(icons/user.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+}
+.form-group .password{
+    background-image: url(icons/password.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    /*background-position: right;*/
+}
+.form-group .password:focus{
+    background-image: url(icons/password.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+}

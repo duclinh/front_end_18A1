@@ -1,0 +1,37 @@
+.list-box{
+	width: 700px;
+	height:auto;
+	background: green;
+	margin: 0 auto;
+}
+.list-box .list{
+	float: left;
+	width: 50%;
+	background: blue;
+	height: 100%;
+	margin: 0;
+	box-sizing: border-box;
+	padding-left: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	color: white;
+	list-style-type: square;
+}
+.list li{
+	width: 100%;
+	padding: 0.2rem 0;
+	/*background: red;*/
+}
+.list li a{
+	display: block;
+	width: 100%;
+	/*background: red;*/
+	text-decoration: none;
+	color: white;	
+}
+.list li:hover a{
+	color: yellow;
+}
+.list li:hover{
+	color: yellow;
+}

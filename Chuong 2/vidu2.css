@@ -1,0 +1,36 @@
+#box{
+	margin: 0 auto;
+	width: 80%;
+	height: 200px;
+	background: green;
+}
+#box .bx{
+	float: left;
+	width: 29.5%;
+	height: 100%;
+	/*background: red;*/
+	margin-right: 15px;
+	margin-left: 15px;
+}
+#box .bx h3{
+	color: yellow;
+	margin: 0;
+/*	padding-top: 10px;
+	padding-bottom: 10px;*/
+	display: block;
+	width: 100%;
+	height: 45px;
+	/*background: blue;*/
+	/*text-align: center;*/
+	line-height: 45px;
+	font-size: 20px;
+	text-transform: capitalize;
+}	
+#box .bx p{
+	color: white;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+	padding:5px 3px;
+}

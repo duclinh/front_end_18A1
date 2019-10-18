@@ -1,0 +1,66 @@
+.vungngoai{
+	width: 400px;
+	height: 450px;
+	/*background: gray;*/
+	margin: 0 auto;
+}
+.vungngoai h3{
+	display: block;
+	width: 100%;
+	padding: 1rem 0;
+	/*background: blue;*/
+	text-transform: capitalize;
+	margin: 0;
+}
+.vungngoai .box{
+	float: left;
+	width: 100%;
+	height: 90px;
+	/*background: green;*/
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+.box .ima{
+	float: left;
+	width: 25%;
+	height: 100%;
+	/*background: yellow;*/
+}
+.box .ima img{
+	width: 100%;
+	height: 100%;
+}
+
+
+.box .content{
+	float: left;
+	margin-left: 5%;
+	width: 70%;
+	height: 100%;
+	/*background: red;*/
+}
+.box .content p{
+	padding: 0;
+	margin: 0;
+}
+.box .content p.mota{
+	text-align: justify;
+	padding: 0 0.2rem;
+	/*width: 100%;*/
+}
+.box .content p.full-name{
+	padding-top: 1rem;
+	padding-left: 0.2rem;
+	width: 100%;
+}
+.box .content a{
+	padding: 0;
+	margin: 0;
+	padding-left: 0.2rem;
+	text-decoration: none;
+	color: #6598e6;
+	width: 100%;
+}
+.box .content a:hover{
+	color: #fca842;
+}

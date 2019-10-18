@@ -1,0 +1,36 @@
+table{
+	width: 80%;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+table thead{
+	background: green;
+	color: white;
+}
+thead th{
+	padding: 0.5rem 0;
+}
+
+tbody tr{
+	color: green;
+}
+tbody td{
+	padding: 0.3rem 0;
+	border-bottom: 1px solid green;
+	border-right: 1px solid yellow;
+}
+
+tbody td.diff{
+	text-align: center;
+}
+tbody tr.row-diff{
+	background: pink;
+}
+tbody tr:hover{
+	background: gray;
+	color: white;
+}
+tbody tr td:hover{
+	background: red;
+}

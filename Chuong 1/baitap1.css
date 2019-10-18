@@ -1,0 +1,33 @@
+#vungngoai{
+	width: 800px;
+	height: 600px;
+	/*background: green;*/
+	/*Dua khung vao giua*/
+	margin: 0 auto;
+}
+#vungngoai .box1{
+	width: 100%;
+	height: 100px;
+	background: blue;
+	margin-bottom: 5px;
+}
+#vungngoai .box2{
+	float: left;
+	width: 25%;
+	height: 450px;
+	background:#0ef; 
+}
+#vungngoai .box3{
+	float: left;
+	width: 74.375%;
+	height: 450px;
+	background: yellow;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+#vungngoai .box4{
+	clear: both;
+	width: 100%;
+	height: 50px;
+	background: red;
+}

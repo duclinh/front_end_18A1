@@ -1,0 +1,51 @@
+.box{
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 0 1rem;
+	/*Xac dinh duration va timing*/
+	transition: 1s ease;
+}
+.box1{
+	background: green;
+}
+.box1:hover{
+	transform: translate(100px,50px);
+	-moz-transform: translate(100px,50px);
+	-o-transform:translate(100px,50px);
+	-webkit-transform: translate(100px,50px);
+	-ms-transform:translate(100px,50px);
+}
+
+.box2{
+	background: yellow;
+}
+.box2:hover{
+	transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform:rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms-transform:rotate(360deg);
+	background: red;
+}
+.box3{
+	background: blue;
+}
+.box3:hover{
+	transform: scale(1,5);
+	-moz-transform:scale(1,5);
+	-o-transform:scale(1,5);
+	-webkit-transform: scale(1,5);
+	-ms-transform:scale(1,5);
+}
+.box4{
+	background: gray;
+}
+.box4:hover{
+	/*Vua xoay vua scale*/
+	transform: scale(1.2) rotate(180deg) translateX(100px);
+	-moz-transform:scale(1.2) rotate(180deg) translateX(100px);
+	-o-transform:scale(1.2) rotate(180deg) translateX(100px);
+	-webkit-transform: scale(1.2) rotate(180deg) translateX(100px);
+	-ms-transform:scale(1.2) rotate(180deg) translateX(100px);
+}

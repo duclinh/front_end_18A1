@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form</title>
+</head>
+<body>
+    <form>
+    	<!-- Nhãn -->
+    	<label>Họ và tên:</label>
+    	<!-- Text area -->
+        <input type="text" name="" class="hoten" placeholder="Nhập họ và tên">
+        <!--Radio button-->
+        <br>
+        <label>Giới tính:</label>
+        <input type="radio" name="gioitinh" id="" class="gioitinh" value="nam" checked>
+        <label>Nam</label>
+        <input type="radio" name="gioitinh" class="gioitinh" value="nu">
+        <label>Nữ</label>
+        <input type="radio" name="gioitinh" value="khac" class="gioitinh">
+        <label>Khác</label>
+        <!--Check box-->
+        <br>
+        <label>Sở thích của bạn:</label>
+        <input type="checkbox" name="sothich[]" value="hutieu">
+        <label>Hủ tiếu</label>
+        <input type="checkbox" name="sothich[]" value="banhmi">
+        <label>Bánh mỳ</label>
+        <input type="checkbox" name="sothich[]" value="myquang">
+        <label>Mỳ Quảng</label>
+        <!--Danh sách sổ xuống - Select list-->
+        <br>
+        <label>Chọn lớp học của bản:</label>
+        <select name="lop">
+            <option value="IT18A11">  Lớp IT18A1.11  </option>
+            <option value="IT18A12"> Lớp IT18A1.12 </option>
+            <option value="IT19A11"> Lớp IT19A1.11 </option>
+            <option value="IT19A12"> Lớp IT19A1.12 </option>
+        </select>
+        <!-- Vùng nhập nội dung - TextArea-->
+        <br>
+        <label>Nhập nội dung:</label>
+        <br>
+        <textarea name="noidung" cols="50" rows="5"></textarea>
+        <!-- Nut - Button -->
+        <br>
+        <input type="button" value="Click Me">
+        <button>Click vào tôi</button>
+        <input type="submit" value="Gửi dữ liệu - Submit">
+        <!-- Khac -->
+        <br>
+        <label>Password:</label>
+        <input type="password" name="matkhau">
+        <br>
+        <label>Chọn File:</label>
+        <input type="file" name="hinhanh">
+        <br>     
+        <!--Fieldset and Legend-->
+        <fieldset>
+            <legend>Chữ trên đường gạch</legend>
+            <label>Ngày sinh:</label>
+            <input type="date" name="ngaysinh">
+            <br>
+            <label>E-mail:</label>
+            <input type="email" name="email">
+        </fieldset>
+
+    </form>
+</body>
+</html>

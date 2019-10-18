@@ -1,0 +1,16 @@
+.box{
+	width: 200px;
+	height: 200px;
+	background: green;
+	margin: 0 auto;
+	/*Khai bao cac thuoc tinh se thay doi*/
+	transition-property: background, border-radius;
+	/*//thoi gian chuyen doi*/
+	transition-duration: 0.5s;
+	/*hinh dang chuyen doi*/
+	transition-timing-function: ease;
+}
+.box:hover{
+	border-radius: 50%;
+	background: yellow;
+}

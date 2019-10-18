@@ -1,0 +1,63 @@
+.vungngoai{
+	width: 80%;
+	height: 320px;
+	background: gray;
+	margin: 0 auto;
+}
+.vungngoai .box{
+	float: left;
+	width: 30%;
+	height: 100%;
+	background: green;
+	margin-left: 2%;
+}
+.vungngoai .diff{
+	float: left;
+	margin-left:2.7%;
+	margin-right: 0.6%;
+}
+.vungngoai .box h3{
+	display: block;
+	width: 100%;
+	padding: 13px 0;
+	/*background: yellow;*/
+	text-align: center;
+	margin: 0;
+}
+.box h3 a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	color: white;
+}
+.box h3 a:hover{
+	color: #fc9d03;
+}
+.box .line{
+	width: 90%;
+	height: 0.2rem;
+	background: white;
+	margin: 0 auto;
+}
+.box p{
+	margin: 0;
+	padding:1rem 0.8rem;
+	color: white;
+	text-align: justify;
+}
+.box a.lienket{
+	display: block;
+	width: 40%;
+	padding: 0.8rem 0;
+	background: white;
+	text-align: center;
+	margin: 0 auto;
+	border-radius:5px; 
+	text-decoration: none;
+	color: green;
+	margin-top: 2rem;
+}
+.box a.lienket:hover{
+	background: #fc9d03;
+}
